@@ -1,0 +1,36 @@
+#!/usr/bin/env python3
+class Params:
+    
+    MAX_FUTURE_BLOCK_TIME = 10 * 6
+    
+    PERIOD_FOR_ONE_CONSENSUS = 1 * 5 
+    
+    PERIOD_FOR_TOTAL_BLOCKS = 5 * 20  
+    
+    TOTAL_BLOCKS = PERIOD_FOR_TOTAL_BLOCKS/PERIOD_FOR_ONE_CONSENSUS
+    
+    INITIAL_DIFFICULTY_BITS = 18
+
+    FIX_BLOCK_REWARD = 6
+    
+    MAX_TX_NUMBER_FOR_MINER = 100
+    
+    INIT_NUMBER_OF_PEERS = 100 # 200 #50
+
+    #NEW_ADD_PEERS = 20    #num_new_peer
+
+    #INIT_NUMBER_OF_TX = 20
+    
+    INIT_COIN_PER_PEER = 1000
+    
+    #FIX_FEE_PER_TX = 0.004   # fee: 0.01%
+    
+    UPPER_BOUND_OF_CONSENSUS_PEERS = 60./100
+    
+    LOWWER_BOUND_OF_CONSENSUS_PEERS = 20./100
+    
+    SLOW_PEERS_IN_NETWORK = 20./100
+    
+    SLOWER_PEERS_IN_NETWORK = 10./100
+    
+    
