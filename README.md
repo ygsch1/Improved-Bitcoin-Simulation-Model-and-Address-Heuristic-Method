@@ -10,19 +10,22 @@ The absence of ground truth data introduces uncertainty into the results of exis
 
 ## Key Features
 
-*   **Bitcoin Transaction Simulation:** The model simulates Bitcoin transactions with configurable parameters, including:
+*   **Realistic Bitcoin Transaction Simulation:** The model simulates Bitcoin transactions with configurable parameters, including:
     *   Number of nodes in the simulated network
     *   Total volume of transactions generated
     *   Transaction version number, sequence number, lock time, and Segregated Witness (SegWit) flag
     *   Distribution of input and output counts
-    *   Distribution of transaction types (consolidation, transfer, complex, multi-pay)
+    *   Distribution of transaction types (consolidation, transfer, complex, multiple payments)
     *   Distribution of address types (P2PKH, P2SH, P2WPKH, P2WSH, P2TR)
 *   **Evaluation Framework:** A framework for evaluating address clustering algorithms, including:
     *   Clustering algorithm implementation (based on internal transaction parameters)
     *   Performance evaluation (calculation of error rates)
 
-## Instructions for Use
+## Model Description
+
 In the simulator, each node is a fully functional Bitcoin node with the following essential components: wallet, storage, routing, and consensus mechanisms. The simulation data is stored at the end of the simulation.
+
+## Instructions for Use
 
 ### Prerequisites
 
