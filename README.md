@@ -1,4 +1,4 @@
-# Improved-Address-Clustering-Heuristic-and-Bitcoin-Blockchain-Investigation
+# Improved Bitcoin Simulation Model and Address Heuristic Method
 
 ## Bitcoin Transaction Simulation Model
 
