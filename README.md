@@ -16,7 +16,7 @@ The absence of ground truth data introduces uncertainty into the results of exis
     *   Transaction version number, sequence number, lock time, and Segregated Witness (SegWit) flag
     *   Distribution of input and output counts
     *   Distribution of transaction types (consolidation, transfer, complex, multiple payments)
-    *   Distribution of address types (P2PKH, P2SH, P2WPKH, P2WSH, P2TR)
+    *   Distribution of address types (P2PKH, P2SH, P2WPKH, P2WSH...)
 *   **Evaluation Framework:** A framework for evaluating address clustering algorithms, including:
     *   Clustering algorithm implementation (based on internal transaction parameters)
     *   Performance evaluation (calculation of error rates)
